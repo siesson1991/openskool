@@ -1,0 +1,69 @@
+skool-clone/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── prisma/
+│   ├── schema.prisma
+│   └── seed.ts
+├── public/
+│   ├── images/
+│   └── fonts/
+├── src/
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   ├── register/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── (dashboard)/
+│   │   │   ├── communities/
+│   │   │   │   └── page.tsx
+│   │   │   ├── settings/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── api/
+│   │   │   ├── auth/
+│   │   │   │   └── [...nextauth]/
+│   │   │   │       └── route.ts
+│   │   │   └── health/
+│   │   │       └── route.ts
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── globals.css
+│   │   └── providers.tsx
+│   ├── components/
+│   │   ├── ui/               # shadcn components
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   └── Footer.tsx
+│   │   ├── auth/
+│   │   │   └── AuthForm.tsx
+│   │   └── shared/
+│   │       └── LoadingSpinner.tsx
+│   ├── lib/
+│   │   ├── prisma.ts
+│   │   ├── auth.ts
+│   │   ├── utils.ts
+│   │   └── validations/
+│   │       └── auth.ts
+│   ├── types/
+│   │   ├── index.ts
+│   │   └── next-auth.d.ts
+│   ├── hooks/
+│   │   └── use-toast.ts
+│   └── config/
+│       ├── site.ts
+│       └── auth.config.ts
+├── .env.example
+├── .env.local
+├── .gitignore
+├── .eslintrc.json
+├── .prettierrc
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+├── package.json
+├── postcss.config.js
+└── README.md
